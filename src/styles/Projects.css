@@ -1,0 +1,317 @@
+
+.projects {
+    background:  none !important; 
+    
+    text-align: center;
+}
+
+
+.projects-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #460040;
+    margin-bottom: 20px;
+}
+.project-description {
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    white-space: pre-line; /* Osigurava prikaz novih redova */
+}
+strong {
+    font-weight: bold;
+  }
+
+.projects-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+
+
+.projects-scroll {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.project-card {
+    width: 100%;  
+    max-width: 350px; 
+    margin: 20px auto;  
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;  
+    overflow: hidden;  
+  }
+  
+ 
+  .project-image {
+    width: 100%; 
+    height: auto;  
+    border-radius: 8px;
+    object-fit: cover; 
+    margin-bottom: 15px;  
+  }
+  
+
+  .project-card h3 {
+    font-size: 20px;  
+    font-weight: bold;
+    margin-bottom: 10px;
+    overflow: visible;  
+    white-space: normal;  
+  }
+  
+  
+  .project-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word; 
+    margin-bottom: 15px;  
+    white-space: normal;  
+  }
+  
+ 
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;  
+  }
+  
+  .tech-badge {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  
+  
+  .project-image {
+    width: 100%;  
+    height: auto;  
+    border-radius: 8px;
+    object-fit: cover;  
+    object-position: top; 
+    margin-bottom: 15px;  
+  }
+
+
+.modal-image {
+    width: 100%;
+    max-height: 400px; 
+    object-fit: contain; 
+    margin-bottom: 20px;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+
+.tech-stack-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.tech-card {
+    background: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    min-width: 90px; 
+}
+
+.tech-card h4 {
+    font-size: 14px; 
+    color: #460040; 
+    margin: 0;
+    font-weight: bold;
+}
+
+.tech-card:hover {
+    transform: scale(1.05);
+}
+
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+   
+    width: 80%;
+    text-align: center;
+    z-index: 1001;
+  }
+  
+  .modal-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #460040;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #5a0b8c;
+  }
+
+
+.carousel-container {
+   
+    width: 500px; 
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px
+  }
+  
+
+  .modal-gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+   
+  }
+  
+  
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    color: #460040;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+  }
+  
+  .carousel-btn.left {
+    left: 10%;
+    top: 15%;
+  }
+  
+  .carousel-btn.right {
+    right: 10%;
+    top: 15%;
+  }
+  
+  .carousel-btn:hover {
+    background: rgba(192, 188, 188, 0.5);
+  }
+  
+
+  .carousel-indicators {
+     position: relative !important;
+    bottom: 5px; 
+    left: 35% !important;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+    z-index: 10;
+    margin-top: -4%;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+
+  
+  .dot.active {
+    background-color: white;
+  }
+
+  .project-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px; 
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
+
+.project-links .btn {
+    padding: 10px 18px; 
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out; }
+
+.project-links .btn-primary {
+    background-color: #460040;
+    border: none;
+    color: white;
+}
+
+.project-links .btn-primary:hover {
+    background-color:  #dfb7db;
+    color: #460040;;
+    border: 1px  #460040 solid;
+    color: #460040; 
+}
+
+.project-links .btn-success {
+    background-color: #fdd5fd; 
+    border: 1px  #460040 solid;
+    color: #460040;
+}
+
+.project-links .btn-success:hover {
+    background-color: #997396; 
+}
+  
+@media (max-width: 768px) {
+    .projects-title {
+        font-size: 2.5rem;
+    }
+    .projects-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

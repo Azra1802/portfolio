@@ -1,0 +1,71 @@
+/* Footer sekcija */
+footer {
+    background-color: none !important;
+    color: #31042d;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  footer .footer-content div {
+    flex: 1;
+    min-width: 200px; 
+  }
+  
+  footer .footer-content h5 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  footer .footer-content p {
+    margin-bottom: 10px;
+  }
+  
+  footer .social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  footer .social-links a {
+    font-size: 1.5rem;
+    color: #31042d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-links a:hover {
+    color: #ff99cc; 
+  }
+  
+  footer .footer-bottom {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #31042d;
+  }
+  
+  footer .footer-bottom a {
+    color: #31042d;
+    text-decoration: none;
+  }
+  
+  footer .footer-bottom a:hover {
+    color: #ff99cc; 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    footer .footer-content {
+      flex-direction: column;
+    }
+  }
+  

@@ -7,6 +7,30 @@
   pointer-events: none;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(319deg, #9400ff, #ffffff, #bc5fff);
+  background-size: 400% 400%;
+  animation: gradientScroll 10s ease infinite;
+  position: relative;
+  font-family: Arial, sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@keyframes gradientScroll {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+* {
+  box-sizing: border-box;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +38,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +51,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

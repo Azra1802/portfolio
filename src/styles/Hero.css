@@ -1,0 +1,115 @@
+/* Hero sekcija */
+.hero {
+  height: 100vh;
+  background: none !important;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+/* Naslov */
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left; /* Poravnanje u lijevo */
+}
+
+
+
+/* Efekat tipkanja */
+.typing-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #460040; /* Kursor efekat */
+  width: 0;
+  animation: typing 4s steps(20) forwards;
+}
+
+.typing-text span{
+  color: #460040;
+}
+
+/* Kada tipkanje završi, kursor nestaje */
+.hide-cursor {
+  border-right: none !important;
+}
+
+/* Animacija tipkanja */
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 60%;
+  }
+}
+
+/* Podnaslov */
+.hero-subtitle {
+  font-size: 1.3rem;
+  margin: 20px 0;
+  text-align: left;
+  color: white; /* Pastelno roze */
+  opacity: 0;
+  animation: fade-in 1.5s ease-in-out forwards;
+}
+
+.hero-subtitle span{
+  color: #460040;
+}
+
+
+.scroll-text {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #460040;
+
+  opacity: 0;
+  animation: fade-in 4s ease-in-out forwards 0.5s;
+}
+
+
+.arrow-down {
+  font-size: 2rem;
+  color: #460040;
+  margin-top: 10px;
+  opacity: 0;
+  animation: fade-in 4s ease-in-out forwards 1s;
+}
+
+
+@keyframes fade-in {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero-title {
+      font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+      font-size: 1.1rem;
+  }
+
+  .scroll-text {
+      font-size: 0.9rem;
+  }
+
+  .arrow-down {
+      font-size: 1.8rem;
+  }
+}
