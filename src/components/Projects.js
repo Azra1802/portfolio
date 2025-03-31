@@ -76,52 +76,27 @@ sourceCode: "https://github.com/Azra1802/Industrijska_praksa",
     liveDemo: "https://azra1802.github.io/Industrijska_praksa/" // Stavi pravi live demo link
   },
   {
-    title: "Biom - Eco Products Website",
+    title: "Portfolio (this one)",
     images: [
-      require("../assets/images/project1.JPG"),
-      require("../assets/images/project12.JPG"),
-      require("../assets/images/project13.JPG"),
-      require("../assets/images/project14.JPG"),
-      require("../assets/images/project15.JPG"),
-      require("../assets/images/project16.JPG"),
-      require("../assets/images/project17.JPG")
+      require("../assets/images/portfolio.JPG")
     ], 
-    description: "A modern, minimalist website for eco-friendly products, developed as part of my final thesis at university.",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    details: `This project is a <strong>fully functional apartment rental platform</strong> designed for <strong>Blue Sky Apartments</strong>. It provides a seamless booking experience with an intuitive UI, real-time availability checks, and automated price calculations. The project is built using a combination of <strong>front-end, back-end, and database technologies</strong> to ensure a smooth and efficient user experience.\n
+    description: "A personal portfolio website designed to showcase my projects, skills, and experience in an interactive way.",
+    techStack: ["React", "JavaScript", "CSS", "Bootstrap"],
+    details: `This portfolio serves as a centralized hub for my work, built to demonstrate my front-end development skills and provide an engaging experience for visitors.\n
     \n
-    <strong>Technologies Used:</strong>\n
-    - <strong>Frontend:</strong> HTML, CSS, Bootstrap for responsive design, and JavaScript for interactivity.\n
-    - <strong>Backend:</strong> PHP for server-side logic and handling form submissions.\n
-    - <strong>Database:</strong> MySQL for storing reservations, user data, and apartment details.\n
+    The project was developed using React for a dynamic and component-based structure, while Framer Motion enhances the user experience with smooth animations and transitions. The design follows a modern and responsive approach, ensuring seamless display on all devices.\n
     \n
-    <strong>Key Features & Sections:</strong>\n
-    - <strong>Navigation Menu:</strong> A sleek, responsive header with easy-to-use navigation links.\n
-    - <strong>Hero Section:</strong> A full-width background image showcasing the apartments with an inviting call-to-action.\n
-    - <strong>Booking Form (Popup Modal):</strong> A well-designed, interactive reservation form with validation and backend processing.\n
-    - <strong>Availability Check Form:</strong> A compact and visually appealing form that allows users to check available dates in real-time.\n
-    - <strong>Dynamic Price Calculation:</strong> JavaScript-powered price calculator that updates based on the selected check-in and check-out dates.\n
-    - <strong>User Authentication:</strong> Secure login and registration system for managing reservations.\n
-    - <strong>Admin Panel:</strong> A dashboard for managing bookings, viewing user data, and updating apartment availability.\n
-    - <strong>Email Notifications:</strong> Automated confirmation emails for successful reservations.\n
-    - <strong>Smooth Animations & Hover Effects:</strong> Enhanced UI with modern CSS transitions and effects.\n
-    - <strong>Contact & Footer:</strong> A structured section with essential contact details, social media links, and additional information.\n
+    Key features include:\n
+    - <strong>Interactive UI:</strong> Smooth animations and transitions for a seamless experience.\n
+    - <strong>Project Showcase:</strong> A detailed presentation of my projects with images, descriptions, and live demo links.\n
+    - <strong>Responsive Design:</strong> Fully optimized for desktop, tablet, and mobile views.\n
+    - <strong>Dynamic Image Gallery:</strong> Clickable project cards with a modal image gallery.\n
+    - <strong>Framer Motion Animations:</strong> Enhanced UX with subtle animations and page transitions.\n
+    - <strong>Easy Navigation:</strong> A clean layout with intuitive navigation.\n
     \n
-    <strong>Database Design:</strong>\n
-    - <strong>Users Table:</strong> Stores user credentials and personal details.\n
-    - <strong>Reservations Table:</strong> Tracks bookings, including check-in/check-out dates and total price.\n
-    - <strong>Apartments Table:</strong> Stores apartment details such as type, price per night, and availability status.\n
-    \n
-    <strong>Additional Features:</strong>\n
-    - <strong>Responsive Design:</strong> Fully optimized for mobile, tablet, and desktop views.\n
-    - <strong>Secure Data Handling:</strong> Backend validation and prepared statements to prevent SQL injection.\n
-    - <strong>Live Price Calculation:</strong> Instant updates based on selected dates and room type.\n
-    - <strong>Modern UI/UX:</strong> Minimalist design for a clean and professional look.\n
-    - <strong>Performance Optimization:</strong> Caching and database indexing for faster queries.\n
-    \n
-    This project demonstrates my skills in <strong>full-stack web development</strong>, including <strong>front-end design, back-end programming, database management, and security implementation</strong> to create a fully functional and user-friendly booking system.\n`,
-    sourceCode: "https://github.com/yourusername/biom-eco-products", // Stavi pravi GitHub link
-    liveDemo: "https://yourwebsite.com/biom-eco-products" // Stavi pravi live demo link
+    This project highlights my expertise in <strong>React development</strong>, focusing on performance, responsiveness, and user-friendly interactions.`,
+    sourceCode: "https://github.com/Azra1802/portfolio", // Replace with your actual GitHub repo link
+    liveDemo: "https://azra1802.github.io/portfolio/" 
   },
   ];
   
@@ -288,3 +263,7 @@ sourceCode: "https://github.com/Azra1802/Industrijska_praksa",
   };
   
   export default Projects;
+
+
+
+

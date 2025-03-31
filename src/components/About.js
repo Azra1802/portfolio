@@ -3,6 +3,9 @@ import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/About.css";
 import myImage from "../assets/images/Azra.jpg"; 
+import logos from "../assets/images/logos.png";
+import teaching from "../assets/images/teaching.jpg";
+import svrco from "../assets/images/svrco.jpg";
 
 const About = () => {
   return (
@@ -46,7 +49,7 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col-lg-5 text-center">
             <motion.img
-              src={myImage}
+              src={logos}
               alt="Skillset"
               className="about-image"
               initial={{ scale: 0.8, opacity: 0 }}
@@ -81,7 +84,7 @@ const About = () => {
           </div>
           <div className="col-lg-5 text-center">
             <motion.img
-              src={myImage}
+              src={teaching}
               alt="Teaching"
               className="about-image"
               initial={{ scale: 0.8, opacity: 0 }}
@@ -95,7 +98,7 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col-lg-5 text-center">
             <motion.img
-              src={myImage}
+              src={svrco}
               alt="Current Work"
               className="about-image"
               initial={{ scale: 0.8, opacity: 0 }}
