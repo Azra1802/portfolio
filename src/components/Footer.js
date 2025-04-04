@@ -17,10 +17,10 @@ const Footer = () => {
         <div>
           <h5>Follow Me</h5>
           <div className="social-links">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Azra1802" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/azra-%C4%91onlagi%C4%87-786796213/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
           </div>

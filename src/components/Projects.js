@@ -72,8 +72,8 @@ sourceCode: "https://github.com/Azra1802/Industrijska_praksa",
     - <strong>Performance Optimization:</strong> Efficient database queries and caching for faster load times.\n
     \n
     This project showcases my expertise in <strong>full-stack development</strong>, including front-end design, backend architecture, and database management, with a focus on security, performance, and an excellent user experience.\n`,
-    sourceCode: "https://github.com/Azra1802/Industrijska_praksa", // Stavi pravi GitHub link
-    liveDemo: "https://azra1802.github.io/Industrijska_praksa/" // Stavi pravi live demo link
+    sourceCode: "https://github.com/Azra1802/Industrijska_praksa", 
+    liveDemo: "https://azra1802.github.io/Industrijska_praksa/" 
   },
   {
     title: "Portfolio (this one)",
@@ -95,7 +95,7 @@ sourceCode: "https://github.com/Azra1802/Industrijska_praksa",
     - <strong>Easy Navigation:</strong> A clean layout with intuitive navigation.\n
     \n
     This project highlights my expertise in <strong>React development</strong>, focusing on performance, responsiveness, and user-friendly interactions.`,
-    sourceCode: "https://github.com/Azra1802/portfolio", // Replace with your actual GitHub repo link
+    sourceCode: "https://github.com/Azra1802/portfolio", 
     liveDemo: "https://azra1802.github.io/portfolio/" 
   },
   ];
@@ -165,18 +165,17 @@ sourceCode: "https://github.com/Azra1802/Industrijska_praksa",
           </div>
         </div>
   
-        {/* Modal sa Slideshow-om */}
+       
         <Modal show={isModalOpen} onHide={closeModal} centered size='xl'>
   <Modal.Header closeButton>
     <Modal.Title>{selectedProject?.title}</Modal.Title>
   </Modal.Header>
   <Modal.Body>
-    {/* Slideshow sa animacijom */}
-    {/* Slideshow sa animacijom */}
+   
       <div className="carousel-container">
         <button className="carousel-btn left" onClick={prevImage}>❮</button>
 
-        {/* ✨ Animirana slika */}
+     
         <AnimatePresence mode="wait">
           <motion.img
             key={currentImageIndex}
@@ -192,7 +191,7 @@ sourceCode: "https://github.com/Azra1802/Industrijska_praksa",
 
         <button className="carousel-btn right" onClick={nextImage}>❯</button>
 
-        {/* 🎯 Indikatori unutar carousel-container */}
+     
         <div className="carousel-indicators">
           {selectedProject?.images.map((_, index) => (
             <span
@@ -205,7 +204,7 @@ sourceCode: "https://github.com/Azra1802/Industrijska_praksa",
       </div>
 
 
-    {/* Tech Stack */}
+ 
     <div className="tech-stack-container">
   {selectedProject?.techStack.map((tech, index) => (
     <div key={index} className="tech-card">
@@ -214,7 +213,7 @@ sourceCode: "https://github.com/Azra1802/Industrijska_praksa",
   ))}
 </div>
 
-    {/* Source Code & Live Demo */}
+   
     <div className="project-links">
       {selectedProject?.sourceCode && (
         <a 
@@ -238,7 +237,7 @@ sourceCode: "https://github.com/Azra1802/Industrijska_praksa",
       )}
     </div>
 
-    {/* Opis projekta */}
+   
     <div className="project-description">
   {selectedProject?.details.split("\n").map((paragraph, index) => (
     paragraph.trim() && (
