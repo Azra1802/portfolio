@@ -59,21 +59,31 @@ sourceCode: "https://github.com/Azra1802/Industrijska_praksa",
     description: "A modern apartment booking platform with real-time availability checks, automated price calculations, and a seamless user experience.",  
     description: "A modern apartment booking platform with real-time availability checks, automated price calculations, and a seamless user experience.",  
     techStack: ["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "Express.js", "MongoDB"],  
-    details: `Blue Sky Apartments is a full-stack web application designed to simplify apartment reservations. It features a clean and intuitive UI, real-time availability checks, and a dynamic price calculation system, ensuring a transparent and smooth booking experience.\n
-    \n
-    The backend, powered by Node.js and Express.js, handles user authentication, reservation management, and secure API endpoints. MongoDB serves as the database, storing user data, bookings, and apartment details, while ensuring scalability and performance. The admin panel enables efficient management of reservations, users, and apartment listings.\n
-    \n
-    Key features include:\n
-    - <strong>Interactive Booking Form:</strong> A modern, easy-to-use form with real-time validation.\n
-    - <strong>Live Availability Checks:</strong> Ensures users can only book available apartments.\n
-    - <strong>Dynamic Price Calculation:</strong> Automatically adjusts total cost based on stay duration and room type.\n
-    - <strong>Email Notifications:</strong> Automatic confirmation emails for successful bookings.\n
-    - <strong>Mobile-Optimized Design:</strong> Fully responsive layout for seamless experience on all devices.\n
-    - <strong>Performance Optimization:</strong> Efficient database queries and caching for faster load times.\n
-    \n
-    This project showcases my expertise in <strong>full-stack development</strong>, including front-end design, backend architecture, and database management, with a focus on security, performance, and an excellent user experience.\n`,
-    sourceCode: "https://github.com/Azra1802/Industrijska_praksa", 
-    liveDemo: "https://azra1802.github.io/Industrijska_praksa/" 
+    details: `Blue Sky Apartments is a full-stack web application currently in progress, designed to simplify apartment reservations. It is the largest and most complex project I have worked on so far, and it’s still a work in progress. The goal is to provide users with a seamless booking experience while offering powerful tools for apartment reservations.\n
+\n
+For the front-end, I started with a pre-built template to accelerate the development process, but I made significant customizations to tailor it to the specific needs of the project. I added various functionalities from scratch and redesigned many elements to improve the user experience and ensure the application aligns with the project's vision. This allowed me to leverage the structure of the template while still putting my personal touch on the final result. \n
+The backend, powered by <strong>Node.js</strong> and <strong>Express.js</strong>, handles users reservation, and secure API endpoints. <strong>MongoDB</strong> serves as the database, storing user data, bookings, and apartment details while ensuring scalability and performance.\n
+\n
+Key features include:\n
+- <strong>Interactive Booking Form</strong>: A modern, easy-to-use form with real-time validation to ensure a smooth booking process.\n
+- <strong>Live Availability Checks</strong>: Guarantees that users can only book available apartments, preventing double bookings and confusion.\n
+- <strong>Dynamic Price Calculation</strong>: The total cost is automatically adjusted based on the stay duration and room type, providing users with accurate pricing information.\n
+- <strong>Email Notifications</strong>: Automatic confirmation emails are sent upon successful bookings, keeping users informed at every step.\n
+- <strong>Mobile-Optimized Design</strong>: Fully responsive layout for seamless experiences on all devices, ensuring accessibility and user-friendliness.\n
+- <strong>Performance Optimization</strong>: Efficient database queries and caching mechanisms to ensure fast load times and a smooth user experience.\n
+\n
+This project showcases my expertise in <strong>full-stack development</strong>, including front-end design, backend architecture, and database management, with a strong focus on security, performance, and an excellent user experience.\n
+\n
+While the application is already partly functional, it’s still under development, with several exciting features yet to be completed. Future updates include:\n
+\n
+- Integration with third-party payment systems for secure transactions.\n
+- Enhanced analytics and reporting to better track bookings and revenue.\n
+- User feedback system to continuously improve the booking process based on customer reviews.\n
+\n
+Through <strong>Blue Sky Apartments</strong>, I am refining my skills in <strong>full-stack development</strong>, project management, and team collaboration. I look forward to finishing the remaining features and continuously improving the user experience as the project progresses.\n
+`,
+    sourceCode: "https://github.com/Azra1802", 
+    liveDemo: "https://www.blueskyilidza.com/" 
   },
   {
     title: "Portfolio (this one)",
